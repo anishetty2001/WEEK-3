@@ -11,7 +11,7 @@ app.use("/",routes)
 
 //DB Connection
 mongoose.connect(
-    "mongodb+srv://chaithu:chaithu***997@cluster0.yopwneu.mongodb.net/Batch3"
+    "mongodb+srv://aneesh:aneesh****@cluster0.yopwneu.mongodb.net/"
 ).then(()=>{
     console.log("Database is connected successfully😎")
 })
